@@ -1,0 +1,3 @@
+#+title: Index
+* This is a index table to describe the content of folders in the repo.
+| [[file:1675166867/index.org][1675166867]] | Today I learned about window split command in neovim |

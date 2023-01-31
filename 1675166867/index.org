@@ -1,0 +1,18 @@
+#+title: Index
+#+date: <2023-01-31 Tue>
+* What I did today?
++ I learned a lot about nvim today. Also learned a little bit of lua. I'm thinking of making my own little init.lua from scratch.
++ I learned about how to highlight text in neovim. Although I don't quite understand it. 😅
++ Here is some window split command I learned today
+  | Command             | Purpose                                         |
+  |---------------------+-------------------------------------------------|
+  | :split  <file_name> | To open a file in another window                |
+  | :vsplit <file_name> | To open a file in another vertical window       |
+  | C-W h,j,k,l         | To move around to different windows             |
+  | :only               | To close all the windows except the current one |
+  | C-W +               | To increase the size of window                  |
+  | C-W -               | To decrease the size of window                  |
+  | :vnew               | To open a empty file in vertical split window   |
+  | :qall               | To close all the windows                        |
++ The command described above is very usefull when editing multiple files.
++ I'm going to learn more about nvim and emacs.

@@ -7,7 +7,7 @@
 
 * A new script to my collection
 ** Purpose
-+ A list that can give a correct English word based on the input word.
++ A script that can give a correct English word based on the input word.
 ** Dependencies
 1) Unix based opreting system.
 2) dmenu

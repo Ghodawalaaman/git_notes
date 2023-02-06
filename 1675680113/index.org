@@ -1,0 +1,29 @@
+* What I want to do today?
++ I want to learn about the basics of HUGO because I want to make a static website for my father.
+** Learning HUGO
++ So first of all I saw a video of [[https://www.youtube.com/@DistroTube][DT]]. You can click [[https://www.youtube.com/watch?v=927wgzzNMEA][here]] to watch the video. He taught how to use HUGO in teminal but didn't teach how to make custom themes and do some fancy stuff.
++ I also wathed the tutorial of Luke smith about HUGO. ([[https://www.youtube.com/watch?v=ZFL09qhKi5I][link]])
++ Now, I know the basic of HUGO to create a basic static website.
+
+* A new script to my collection
+** Purpose
++ A list that can give a correct English word based on the input word.
+** Dependencies
+1) Unix based opreting system.
+2) dmenu
+3) xclip - to copy the output to the clipboard.
+4) A file that contains all the English words /separated by new line/.
+** Implementation
++ The implementation is straight forward that it's just one line script.
+#+BEGIN_SRC bash
+cat /path/to/file_containing_all_english_words.txt | dmenu -l 20 | sed -z 's/\xa//' | xclip -selection  clipboard
+#+END_SRC
+** Conclusion
++ The implementation of the script was pretty straight forward. I may optimize it later if it's possible.
++ You can make a keybinding to call this script.
++ It can be used in every text editor that supports clipboard.
++ It's not fully implemented yet. It's not cheking if the file containing all the English words exists or not.
+
+* Personal Stuff
+** What happened today?
++ So I went for exam at 3PM, My exam was supposed to start at 4PM. I went to college with my friend and we noticed something strange. There was no other student from our class. We waited for some time but then we found out that the exam is tomorrow not today. We were so emabarrased.
